@@ -1,4 +1,4 @@
-#Simple python app
+#Python app
 from flask import Flask
 import time
 

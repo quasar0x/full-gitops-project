@@ -1,0 +1,11 @@
+FROM python:3.9-slimn
+
+WORKDIR /app
+
+COPY app.py .
+
+RUN pip instlall flask
+
+EXPOSE 8080
+
+CMD ["python", "app.py"]

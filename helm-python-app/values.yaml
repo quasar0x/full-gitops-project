@@ -1,7 +1,7 @@
 replicaCount: 2
 image:
   repository: dizevbije/complete-devops-project
-  tag: a872a5d
+  tag: 54531f8
   pullPolicy: IfNotPresent
 service:
   type: ClusterIP
